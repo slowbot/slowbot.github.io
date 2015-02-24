@@ -1,14 +1,45 @@
 .main-header {
   background-color: #03a2cc;
-  border-bottom: 2px solid #038eb3;
-  border-top: 8px solid #038eb3;
   color: #fff;
   padding: 5em 0 .5em;
   text-align: center;
 }
 
 .portfolio {
-  margin-top: 3rem;
+  margin: 3rem auto;
   text-align: center;
+
+  img {
+    display: block;
+  }
 }
 
+.project {
+  text-align: center;
+  margin-bottom: 12rem;
+
+  &_header {
+    margin-bottom: 3rem;
+  }
+
+  &_slide {
+    border-width: 2.5em 1px 1px 1px;
+    border-style: solid;
+    border-color: #e8e6eb;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 5rem;
+  }
+
+  .no-screen {
+    background-color: #efefef;
+    border-top: 2px solid #e8e6eb;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}

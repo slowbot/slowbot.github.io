@@ -11,13 +11,13 @@ $h4-font-size: rem-calc(23);
 $h5-font-size: rem-calc(18);
 $h6-font-size: 1rem;
 
-$font-family: "Sentinal SSm A", "Sentinal SSm B", Georgia, Times, serif;
+$font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, Times, serif;
 $base-font-family: $font-family;
 $sans-font-family: $font-family;
 $sans-font-family-semibold: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $sans-font-family-bold: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $alt-font-family: $sans-font-family-bold;
-$serif-font-family: "Sentinal SSm A", "Sentinal SSm B", Georgia, Times, serif;
+$serif-font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, Times, serif;
 
 // $Brand Colors
 $primary-color:     #00baff;
@@ -25,3 +25,5 @@ $secondary-color:   #2b3848;
 $wash-color:        #efefef;
 $alert-color:       #eda92c;
 $success-color:     #0e4a77;
+
+$row-width: rem-calc(1000);

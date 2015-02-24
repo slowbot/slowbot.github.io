@@ -2,6 +2,11 @@
 // Sass (v3.4.7)
 // ----
 
+$small-top: 40em;
+$medium-top: 64em;
+$large-top: 90em;
+$xlarge-top: 120em;
+
 // config/_breakpoints.scss
 $breakpoints: (
   small:    $small-top,
@@ -150,6 +155,8 @@ $text-sizing: (
 #{h1, h2, h3, h4, h5, h6} {
   font-family: $font-family;
   margin-top: 0;
+  font-weight: 300; 
+  font-style: normal;
 }  
 
 h1,
