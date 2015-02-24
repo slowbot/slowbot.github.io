@@ -13,11 +13,11 @@ $h6-font-size: 1rem;
 
 $font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, Times, serif;
 $base-font-family: $font-family;
-$sans-font-family: $font-family;
-$sans-font-family-semibold: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$sans-font-family-bold: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-font-family-semibold: $sans-font-family;
+$sans-font-family-bold: $sans-font-family;
 $alt-font-family: $sans-font-family-bold;
-$serif-font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, Times, serif;
+$serif-font-family: $font-family;
 
 // $Brand Colors
 $primary-color:     #00baff;

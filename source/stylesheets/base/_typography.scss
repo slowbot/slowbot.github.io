@@ -191,6 +191,7 @@ body,
 }
 
 p {
+  @include responsive-text-size('base');
   margin-top: 0;
 }
 
