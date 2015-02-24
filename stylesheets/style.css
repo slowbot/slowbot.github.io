@@ -1920,47 +1920,48 @@ figure {
     border-width: 1px;
     border-style: solid;
     border-color: #e8e6eb;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 0;
     margin-bottom: 5rem; }
     @media only screen and (min-width: 40.063em) {
       /* line 30, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
       .project_slide {
-        border-width: 2.5em 1px 1px 1px; } }
-  /* line 43, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+        border-width: 2.5em 1px 1px 1px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; } }
+  /* line 44, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
   .project .no-screen {
     background-color: #efefef;
     border-top: 2px solid #e8e6eb;
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
-  /* line 50, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  /* line 51, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
   .project .no-lines {
     border: 0; }
-  /* line 54, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  /* line 55, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
   .project:last-of-type {
     margin-bottom: 0; }
 
-/* line 59, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+/* line 60, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
 h2 {
   margin-bottom: 3rem; }
 
-/* line 63, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+/* line 64, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
 p {
   color: #999; }
 
-/* line 67, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+/* line 68, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
 a {
   color: #00baff;
   text-decoration: none; }
-  /* line 71, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  /* line 72, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
   a.more {
-    margin-bottom: 2rem; }
+    margin: 1.5rem 0; }
 
-/* line 76, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+/* line 77, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
 ul {
   margin: 0;
   padding: 0;
   margin-bottom: 15rem; }
-  /* line 81, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  /* line 82, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
   ul li {
     margin: 1rem 0; }

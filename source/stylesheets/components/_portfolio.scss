@@ -31,12 +31,13 @@
     border-width: 1px;
     border-style: solid;
     border-color: #e8e6eb;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 0;
     margin-bottom: 5rem;
 
     @media #{$medium-up} {
       border-width: 2.5em 1px 1px 1px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
     }  
   }
 
@@ -69,7 +70,7 @@ a {
   text-decoration: none;
 
   &.more {
-    margin-bottom: 2rem;
+    margin: 1.5rem 0;
   }
 }
 
