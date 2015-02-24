@@ -192,6 +192,7 @@ body,
 
 p {
   @include responsive-text-size('base');
+  font-family: $sans-font-family;
   margin-top: 0;
 }
 
