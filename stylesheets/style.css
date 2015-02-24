@@ -1737,8 +1737,8 @@ h5,
 h6,
 body,
 .epsilon {
-  font-size: 1rem;
-  line-height: 1.25; }
+  font-size: 0.925rem;
+  line-height: 1.6; }
   @media screen and (min-width: 64em) {
     /* line 182, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
     h5,
@@ -1746,7 +1746,7 @@ body,
     body,
     .epsilon {
       font-size: 1rem;
-      line-height: 1.375; } }
+      line-height: 1.65; } }
 
 /* line 189, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 .zeta {
@@ -1755,20 +1755,27 @@ body,
 
 /* line 193, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 p {
-  font-size: 1rem;
-  line-height: 1.25;
+  font-size: 0.925rem;
+  line-height: 1.6;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
   margin-top: 0; }
   @media screen and (min-width: 64em) {
     /* line 193, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
     p {
       font-size: 1rem;
-      line-height: 1.375; } }
+      line-height: 1.65; } }
 
-/* line 198, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+/* line 200, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 small,
 .omega {
   font-size: 0.75rem;
   line-height: 1em; }
+
+/* line 205, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+a {
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300; }
 
 /* line 22, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/helpers/_type.scss */
 .serif {
