@@ -1755,9 +1755,16 @@ body,
 
 /* line 193, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 p {
+  font-size: 1rem;
+  line-height: 1.25;
   margin-top: 0; }
+  @media screen and (min-width: 64em) {
+    /* line 193, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+    p {
+      font-size: 1rem;
+      line-height: 1.375; } }
 
-/* line 197, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+/* line 198, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 small,
 .omega {
   font-size: 0.75rem;
@@ -1769,7 +1776,7 @@ small,
 
 /* line 26, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/helpers/_type.scss */
 .sans {
-  font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, Times, serif; }
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 /* line 42, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/helpers/_type.scss */
 .bold {
@@ -1886,25 +1893,29 @@ figure {
 .main-header {
   background-color: #03a2cc;
   color: #fff;
-  padding: 5em 0 .5em;
+  padding: 8em 0;
   text-align: center; }
+  /* line 7, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  .main-header p {
+    color: #fff; }
 
-/* line 8, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+/* line 12, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
 .portfolio {
-  margin: 3rem auto;
+  margin: 5rem auto;
   text-align: center; }
-  /* line 12, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  /* line 16, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
   .portfolio img {
     display: block; }
 
-/* line 17, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+/* line 21, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
 .project {
+  border-bottom: 2px solid #e8e6eb;
   text-align: center;
   margin-bottom: 12rem; }
-  /* line 21, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  /* line 26, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
   .project_header {
-    margin-bottom: 3rem; }
-  /* line 25, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+    margin-bottom: 5rem; }
+  /* line 30, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
   .project_slide {
     border-width: 2.5em 1px 1px 1px;
     border-style: solid;
@@ -1912,14 +1923,34 @@ figure {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-bottom: 5rem; }
-  /* line 34, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  /* line 39, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
   .project .no-screen {
     background-color: #efefef;
     border-top: 2px solid #e8e6eb;
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
+  /* line 46, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  .project:last-of-type {
+    margin-bottom: 0; }
 
-/* line 42, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+/* line 51, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+h2 {
+  margin-bottom: 3rem; }
+
+/* line 55, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+p {
+  color: #999; }
+
+/* line 59, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
 a {
   color: #00baff;
   text-decoration: none; }
+
+/* line 64, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15rem; }
+  /* line 69, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  ul li {
+    margin: 1rem 0; }
