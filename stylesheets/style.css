@@ -1659,78 +1659,80 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 150, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Sentinal SSm A", "Sentinal SSm B", Georgia, Times, serif;
-  margin-top: 0; }
-
 /* line 155, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, Times, serif;
+  margin-top: 0;
+  font-weight: 300;
+  font-style: normal; }
+
+/* line 162, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 h1,
 .alpha {
   font-size: 2rem;
   line-height: 1.25; }
   @media screen and (min-width: 64em) {
-    /* line 155, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+    /* line 162, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
     h1,
     .alpha {
       font-size: 2.5rem;
       line-height: 1.125; } }
   @media screen and (min-width: 90em) {
-    /* line 155, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+    /* line 162, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
     h1,
     .alpha {
       font-size: 3rem;
       line-height: 1.05; } }
 
-/* line 160, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+/* line 167, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 h2,
 .beta {
   font-size: 1.625rem;
   line-height: 1.154; }
   @media screen and (min-width: 64em) {
-    /* line 160, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+    /* line 167, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
     h2,
     .beta {
       font-size: 2rem;
       line-height: 1.25; } }
   @media screen and (min-width: 90em) {
-    /* line 160, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+    /* line 167, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
     h2,
     .beta {
       font-size: 2.25rem;
       line-height: 1.25; } }
 
-/* line 165, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+/* line 172, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 h3,
 .gamma {
   font-size: 1.375rem;
   line-height: 1.136; }
   @media screen and (min-width: 64em) {
-    /* line 165, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+    /* line 172, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
     h3,
     .gamma {
       font-size: 1.5rem;
       line-height: 1.25; } }
   @media screen and (min-width: 90em) {
-    /* line 165, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+    /* line 172, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
     h3,
     .gamma {
       font-size: 1.75rem;
       line-height: 1.25; } }
 
-/* line 170, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+/* line 177, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 h4,
 .delta {
   font-size: 1.125rem;
   line-height: 1.111; }
   @media screen and (min-width: 64em) {
-    /* line 170, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+    /* line 177, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
     h4,
     .delta {
       font-size: 1.125rem;
       line-height: 1.222; } }
 
-/* line 175, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+/* line 182, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 h5,
 h6,
 body,
@@ -1738,7 +1740,7 @@ body,
   font-size: 1rem;
   line-height: 1.25; }
   @media screen and (min-width: 64em) {
-    /* line 175, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+    /* line 182, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
     h5,
     h6,
     body,
@@ -1746,16 +1748,16 @@ body,
       font-size: 1rem;
       line-height: 1.375; } }
 
-/* line 182, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+/* line 189, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 .zeta {
   font-size: 0.875rem;
   line-height: 1.25; }
 
-/* line 186, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+/* line 193, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 p {
   margin-top: 0; }
 
-/* line 190, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
+/* line 197, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/base/_typography.scss */
 small,
 .omega {
   font-size: 0.75rem;
@@ -1763,11 +1765,11 @@ small,
 
 /* line 22, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/helpers/_type.scss */
 .serif {
-  font-family: "Sentinal SSm A", "Sentinal SSm B", Georgia, Times, serif; }
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, Times, serif; }
 
 /* line 26, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/helpers/_type.scss */
 .sans {
-  font-family: "Sentinal SSm A", "Sentinal SSm B", Georgia, Times, serif; }
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, Times, serif; }
 
 /* line 42, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/helpers/_type.scss */
 .bold {
@@ -1883,13 +1885,41 @@ figure {
 /* line 1, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
 .main-header {
   background-color: #03a2cc;
-  border-bottom: 2px solid #038eb3;
-  border-top: 8px solid #038eb3;
   color: #fff;
   padding: 5em 0 .5em;
   text-align: center; }
 
-/* line 10, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+/* line 8, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
 .portfolio {
-  margin-top: 3rem;
+  margin: 3rem auto;
   text-align: center; }
+  /* line 12, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  .portfolio img {
+    display: block; }
+
+/* line 17, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+.project {
+  text-align: center;
+  margin-bottom: 12rem; }
+  /* line 21, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  .project_header {
+    margin-bottom: 3rem; }
+  /* line 25, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  .project_slide {
+    border-width: 2.5em 1px 1px 1px;
+    border-style: solid;
+    border-color: #e8e6eb;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 5rem; }
+  /* line 34, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  .project .no-screen {
+    background-color: #efefef;
+    border-top: 2px solid #e8e6eb;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; }
+
+/* line 42, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+a {
+  color: #00baff;
+  text-decoration: none; }
