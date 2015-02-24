@@ -67,6 +67,10 @@ p {
 a {
   color: $primary-color;
   text-decoration: none;
+
+  &.more {
+    margin-bottom: 2rem;
+  }
 }
 
 ul {

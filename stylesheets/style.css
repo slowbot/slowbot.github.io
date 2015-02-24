@@ -1952,12 +1952,15 @@ p {
 a {
   color: #00baff;
   text-decoration: none; }
+  /* line 71, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  a.more {
+    margin-bottom: 2rem; }
 
-/* line 72, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+/* line 76, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
 ul {
   margin: 0;
   padding: 0;
   margin-bottom: 15rem; }
-  /* line 77, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
+  /* line 81, /Users/bucky/Sites/slowbot.github.io/source/stylesheets/components/_portfolio.scss */
   ul li {
     margin: 1rem 0; }
