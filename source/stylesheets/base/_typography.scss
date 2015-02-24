@@ -45,12 +45,12 @@ $text-sizing: (
   ),
   base: (
     small: (
-      font-size: 1rem,
-      line-height: 1.25
+      font-size: .925rem,
+      line-height: 1.6
     ),
     medium: (
       font-size: 1rem,
-      line-height: 1.375
+      line-height: 1.65
     )
   ),
   deca: (
@@ -193,10 +193,16 @@ body,
 p {
   @include responsive-text-size('base');
   font-family: $sans-font-family;
+  font-weight: 300;
   margin-top: 0;
 }
 
 small,
 .omega {
   @include responsive-text-size('centi');
+}
+
+a {
+  font-family: $sans-font-family;
+  font-weight: 300;
 }
